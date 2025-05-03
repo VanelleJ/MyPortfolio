@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Vanelle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #007acc, #005f99);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    header h1 {
+      margin-bottom: 1rem;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.3rem;
+    }
+    .cv-button {
+      background: #ffffff;
+      color: #007acc;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .cv-button:hover {
+      background: #e6f0ff;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 0.8s ease-in-out;
+    }
+    h2 {
+      color: #005f99;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #003f66;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .contact a {
+      display: block;
+      margin: 0.3rem 0;
+      color: #003f66;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p, .cv-button {
+        font-size: 1rem;
+      }
+      section {
+        padding: 1.5rem;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Salut, je suis Vanelle</h1>
+    <p>Ingénieure logicielle, Gestionnaire de plateforme & Passionnée par la technologie</p>
+    <a href="CV_Vanelle.pdf" class="cv-button" download>Télécharger mon CV</a>
+  </header>
+
+  <section>
+    <h2>À propos</h2>
+    <p>Je suis une jeune ingénieure en génie logiciel, motivée, rigoureuse et passionnée par l'innovation numérique. J’évolue dans l’univers du développement, de la gestion de données et de la coordination d’équipe. Mon objectif est de transformer les défis technologiques en opportunités durables, tout en cultivant ma passion pour l’écriture et le développement personnel.</p>
+  </section>
+
+  <section>
+    <h2>Compétences</h2>
+    <ul>
+      <li>Développement Web (Front-end)</li>
+      <li>Analyse informatique</li>
+      <li>Infographie (Photoshop, Canva)</li>
+      <li>Formation en informatique</li>
+      <li>Pack Office (Word, Excel, PowerPoint)</li>
+      <li>Gestion de plateforme numérique</li>
+      <li>Gestionnaire de flotte</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Expérience professionnelle</h2>
+    <p><strong>Gestionnaire de plateforme – Yango (CTS JEUNE)</strong> (2024 – Présent)</p>
+    <p>Supervision de chauffeurs : planification des horaires, formation initiale, accompagnement, suivi des performances et résolution des incidents techniques. Mise en place de stratégies pour améliorer l'engagement et la disponibilité de la flotte.</p>
+
+    <p><strong>Développeuse Front-end – PROGES</strong> (2023 – 2024)</p>
+    <p>Conception et développement de sites web éducatifs. Participation active à la gestion de projets numériques comme PROGESEDUCATION, avec une attention particulière à l’ergonomie et à la maintenance.</p>
+
+    <p><strong>Responsable Informatique – NGBTP MS</strong> (2022 – 2023)</p>
+    <p>Installation de systèmes, maintenance logicielle et matérielle, sécurisation des données, gestion des réseaux locaux et formation des collaborateurs.</p>
+
+    <p><strong>Assistante bureautique – TCHINE FILS</strong> (2022)</p>
+    <p>Gestion administrative quotidienne, rédaction de documents, organisation de fichiers numériques et soutien aux activités commerciales.</p>
+  </section>
+
+  <section>
+    <h2>Éducation</h2>
+    <ul>
+      <li>Computer Engineering Diploma – IAI Cameroun (2023)</li>
+      <li>GCE A Level – GBHS Ekounou (2019)</li>
+      <li>GCE O Level – GBHS Ekounou (2017)</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:tchindavanelle237@gmail.com">tchindavanelle237@gmail.com</a>
+    <a href="tel:+237657967999">+237 657 967 999</a>
+    <p>Yaoundé IV, Awae Escalier</p>
+  </section>
+
+  <footer>
+    © 2025 Vanelle. Tous droits réservés.
+  </footer>
+</body>
+</html>
